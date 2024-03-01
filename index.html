@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="from">
+
+        <div class="caixa">
+            <div    class="Label1">
+                <label class="display1" for="nome">
+                Nome: <input id="nome" type="text" name="txt_nome" placeholder="Nome completo">
+                <div id="TX1"></div>
+                </label>
+            </div>
+
+            <div class="Label2">
+                <label class="display1" for="email">
+                Email: <input id="email" type="email" name="text_email" placeholder="Email">
+                <div id="TX2"></div>
+                </label>
+            </div>
+
+            <div class="Label3">
+                <label id="LabelSelec">
+                    Deseja viajar:
+                    <select id="LabelSelec1">
+                        <option>...</option>
+                        <option value="Sim" >Sim</option>
+                        <option value="Não" >Não</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="Label4">
+                <label id="QtdReal">
+                    Digite a quantidade em real: <input id="Armazena" type="number" placeholder="Quantidade em real">
+                </label>
+            </div>
+
+            <button onclick="enviar()">Enviar</button>
+            <div id="Resposta" >   
+            </div>
+        </div>
+        <img src="img/moeda.png">
+        <img src="img/porco.png">
+        <img class="aviao" src="img/avião.png">
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>

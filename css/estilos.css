@@ -1,0 +1,116 @@
+#TX1, #TX2
+{
+    font-size: 12px;
+    color: red;
+}
+
+*{padding: 0; margin: 0;}
+
+#QtdReal
+{
+    display: none;
+}
+
+body
+{
+    background: #f1c0c8a3;
+}
+
+#Resposta
+{
+    display: flex;
+    justify-content: center;
+    background: white;
+    width: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.caixa
+{
+    background: #fff7f7;  
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 50vh;
+    margin-top: 15vh;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.from
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    height: 80vh;
+    background: pink;
+}
+
+
+.display1
+{
+    display: flex;
+    flex-direction: column;
+}
+
+input
+{
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.Label3
+{
+    padding-left: 5px;
+    border: 1px solid black;
+    background: white;
+}
+
+select
+{
+    border-left: 1px solid black;
+    border-right:0px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.Label3
+{
+    margin-top: 10px;
+}
+
+button
+{
+    padding: 5px;
+    background: greenyellow;
+    border-top: 2px solid black;
+    border-left: 3px solid black;
+    border-right: 1px solid black;
+    border-bottom: thin solid black;
+    border-radius: 3px;
+}
+
+img
+{
+    top: 20vh;
+    left: 55%;
+    z-index: 0;
+    position: absolute;
+}
+
+.aviao
+{
+    left: 10%;
+}
+
+.padroni
+{
+    top: -10vh;
+    left: 40%;
+}
